@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavenly's Delight</title>
+    <link rel="stylesheet" href="./../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="./../assets/Imagenes/Logo-corto copy 2.png">
+</head>
+<body>
+    <header>
+        <img src="./../assets/Imagenes/Logo-Heavenly-Delights copy 4.png" alt="Logo" class="Logo">
+        <nav>
+            <ul>
+                <!-- li * algún número en sí -->
+                <li>
+                    <a href="./../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./delicias.html">Delicias</a>
+                </li>
+                <li>
+                    <a href="./boxes.html">Boxes</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <h4>Sus comentarios son muy valiosos para nosotros, ya sea para mejorar o para continuar
+            brindándole un servicio acorde al que nuestros clientes se merecen.</h4>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" name="Apellido" id="Apellido" placeholder="Escribe tu apellido" required>
+            <div>
+            <label for="Genero">Genero:</label>
+            <select name="Genero" id="Genero" required>
+                <option value="" selected>Elija una opción</option>
+                <option value="">Masculino</option>
+                <option value="">Femenino</option>
+                <option value="">Prefiero no decirlo</option>
+            </select>
+            </div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Escribe tu email" required>
+            <label for="Telefono">Telefono/Celular:</label>
+            <input type="tel" name="Telefono" id="Telefono" placeholder="Escribe tu telefono" required>
+            <div>
+            <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Escriba aqui..."></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <p>Derechos de autor &copy; 2024 Coffee & Patisserie Heavenly's Delight. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
