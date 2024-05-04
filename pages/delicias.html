@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heavenly's Delight</title>
     <link rel="icon" type="image/x-icon" href="./../assets/Imagenes/Logo-corto copy 4.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./../css/styles.css">
+    <script src="../Javascript/javascript.js"></script>
 </head>
 <body>
     <header>
@@ -33,49 +35,13 @@
     </header>
     <main>
         <h1>Delicias</h1>
-        <div>
-            <img src="./../assets/Imagenes/torta-de-chocolate-milka.jpg" style="float: left; margin-right: 10px;" class="Delicia1">
-        </div>
-        <h2>Deliciosa Torta de Chocolate Milka: Un placer irresistible para los amantes del chocolate</h2>
-        <section1>
-            <div>
-                <p>Sumérgete en un mundo de sabor con nuestra exquisita torta de chocolate Milka. Cada bocado es una experiencia celestial que combina la suavidad y cremosidad característica de la marca Milka con el intenso sabor del chocolate (Las imagenes son a modo ilustrativo).</p>
-            </div>
-            <form>
-                <label for="Cantidad">Cantidad:</label>
-                <select name="Cantidad" id="Cantidad" required>
-                    <option value="" selected>Elija una opción</option>
-                    <option value="">4 personas</option>
-                    <option value="">8 personas</option>
-                    <option value="">12 personas</option>
-                </select>
-                <input type="submit" value="Comprar">
-            </form>
-
-            <div>
-                <img src="./../assets/Imagenes/torta-brownie.jpg" style="float: left; margin-right: 10px;" class="Delicia2">
-            </div>
-            <h2>Irresistible Brownie: El equilibrio perfecto entre suavidad y sabor intenso</h2>
-            <section1>
-                <div>
-                    <p>Sumérgete en la tentación con nuestro exquisito brownie. Cada bocado es una explosión de sabor que combina la suavidad y humedad con un intenso sabor a chocolate (Las imagenes son a modo ilustrativo).</p>
-                </div>
-                <form>
-                    <label for="Cantidad">Cantidad:</label>
-                    <select name="Cantidad" id="Cantidad" required>
-                        <option value="" selected>Elija una opción</option>
-                        <option value="">4 personas</option>
-                        <option value="">8 personas</option>
-                        <option value="">12 personas</option>
-                    </select>
-                    <input type="submit" value="Comprar">
-                </form>
-                <div>
-                    <img src="./../assets/Imagenes/crumble-de-manzana.jpg" style="float: left; margin-right: 10px;" class="Delicia3">
-                    <h2>Delicioso Crumble de Manzana: El equilibrio perfecto entre lo dulce y lo crujiente</h2>
-                    <div>
-                        <p>Déjate seducir por nuestro crumble de manzana, un postre clásico que combina la dulzura de las manzanas horneadas con la textura crujiente y sabrosa de la cobertura de crumble (Las imagenes son a modo ilustrativo).</p>
-                    </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./../assets/Imagenes/torta-de-chocolate-milka.jpg" alt="Imagen 1" class="Delicia1">
+                <div class="carousel-caption">
+                    <h3>Torta de Chocolate Milka: Un placer irresistible para los amantes del chocolate</h3>
+                    <p>Sumérgete en un mundo de sabor con nuestra exquisita torta de chocolate Milka. Cada bocado es una experiencia celestial que combina la suavidad y cremosidad característica de la marca Milka con el intenso sabor del chocolate (La imagen es a modo ilustrativo).</p>
                     <form>
                         <label for="Cantidad">Cantidad:</label>
                         <select name="Cantidad" id="Cantidad" required>
@@ -84,14 +50,49 @@
                             <option value="">8 personas</option>
                             <option value="">12 personas</option>
                         </select>
-                        <input type="submit" value="Comprar">
+                        <input type="submit" value="Agregar al Carrito">
                     </form>
-                    <div>
-                        <img src="./../assets/Imagenes/cookies-de-chocolate.jpg" style="float: left; margin-right: 10px;" class="Delicia4">
-                        <h2>Deliciosas Cookies de Chocolate: Una explosión de sabor en cada bocado</h2>
-                        <div>
-                            <p>Disfruta de nuestras irresistibles cookies de chocolate, el dulce perfecto para aquellos que aman el sabor y la textura crujiente de las galletas de chocolate recién horneadas (Las imagenes son a modo ilustrativo).</p>
-                        </div>
+            </div>
+            </div>
+                <div class="carousel-item">
+                <img src="./../assets/Imagenes/torta-brownie.jpg" alt="Imagen 2" class="Delicia1">
+                <div class="carousel-caption">
+                    <h3 class="cookies">Irresistible Brownie: El equilibrio perfecto entre suavidad y sabor intenso</h3>
+                    <p class="cookies">Sumérgete en la tentación con nuestro exquisito brownie. Cada bocado es una explosión de sabor que combina la suavidad y humedad con un intenso sabor a chocolate (La imagen es a modo ilustrativo).</p>
+                    <form>
+                        <label for="Cantidad">Cantidad:</label>
+                        <select name="Cantidad" id="Cantidad" required>
+                            <option value="" selected>Elija una opción</option>
+                            <option value="">4 personas</option>
+                            <option value="">8 personas</option>
+                            <option value="">12 personas</option>
+                        </select>
+                        <input type="submit" value="Agregar al Carrito">
+                    </form>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="./../assets/Imagenes/crumble-de-manzana.jpg" alt="Imagen 3" class="Delicia2">
+                <div class="carousel-caption">
+                    <h3 class="cookies">Delicioso Crumble de Manzana: El equilibrio perfecto entre lo dulce y lo crujiente</h3>
+                    <p class="cookies">Déjate seducir por nuestro crumble de manzana, un postre clásico que combina la dulzura de las manzanas horneadas con la textura crujiente y sabrosa de la cobertura de crumble (La imagen es a modo ilustrativo).</p>
+                    <form>
+                        <label for="Cantidad">Cantidad:</label>
+                        <select name="Cantidad" id="Cantidad" required>
+                            <option value="" selected>Elija una opción</option>
+                            <option value="">4 personas</option>
+                            <option value="">8 personas</option>
+                            <option value="">12 personas</option>
+                        </select>
+                        <input type="submit" value="Agregar al Carrito">
+                    </form>
+                </div>
+                </div>
+                    <div class="carousel-item">
+                    <img src="./../assets/Imagenes/cookies-de-chocolate.jpg" alt="Imagen 4" class="Delicia1">
+                    <div class="carousel-caption">
+                        <h3 class="cookie">Deliciosas Cookies de Chocolate: Una explosión de sabor en cada bocado</h3>
+                        <p class="cookies">Disfruta de nuestras irresistibles cookies de chocolate, el dulce perfecto para aquellos que aman el sabor y la textura crujiente de las galletas de chocolate recién horneadas (La imagen es a modo ilustrativo).</p>
                         <form>
                             <label for="Cantidad">Cantidad:</label>
                             <select name="Cantidad" id="Cantidad" required>
@@ -100,12 +101,27 @@
                                 <option value="">8 personas</option>
                                 <option value="">12 personas</option>
                             </select>
-                            <input type="submit" value="Comprar">
+                            <input type="submit" value="Agregar al Carrito">
                         </form>
-                        
+                </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="sr-only1">Siguiente</span>
+            </a>
+            </div>
+
     </main>
     <footer>
-        <p>Derechos de autor &copy; 2024 Coffee & Patisserie Heavenly's Delight. Todos los derechos reservados.</p>
+        <p class="footy">Derechos de autor &copy; 2024 Coffee & Patisserie Heavenly's Delight. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

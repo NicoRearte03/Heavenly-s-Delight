@@ -3,95 +3,120 @@ body {
     background-color: #f5f5f5;
     color: #333;
     }
-    
-    h1, h2, h3, h4 {
+
+h1 {
+    color: #8c6b5f;
+    text-decoration: underline;
+}
+
+h2, h3, h4 {
     color: #8c6b5f; /* marrón pastel */
     }
 
-    h1- {
+p {
+    text-align: justify;
+    margin: auto;
     color: #8c6b5f
-    
-    }
-    
-    nav ul {
+}
+
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: right;
     }
-    
-    nav ul li {
+
+nav ul li {
     display: inline-block;
     margin-right: 20px;
     }
-    
-    nav ul li a {
+
+nav ul li a {
     text-decoration: none;
     color: #8c6b5f; /* marrón pastel */
     }
-    
-    /* Estilos específicos */
-    header {
+
+/* Estilos específicos */
+header {
     background-color: #d8e8d1; /* verde pastel */
     padding: 20px;
     }
-    
-    section {
+
+section {
     background-color: #cfd9e8; /* azul pastel */
     padding: 20px;
     margin-bottom: 20px;
     }
-    
-    footer {
+
+footer {
     background-color: #e8d1d1; /* marrón pastel */
     padding: 10px;
     text-align: center;
     }
 
-    .Logo {
+.footy {
+    text-align: center;
+    color: #333;
+}
+
+.Logo {
     width: 150px; 
     height: 150px;
     }
-    
-    .Box {
+
+.Box {
     width: 370px; 
     height: 370px;
     position: relative;
     left: auto;
     }
 
-    label {
+.Boxes {
+    display: grid;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+label {
     color: #8c6b5f;
     }
 
-    section1 {
+section1 {
     text-align: left;
     }
 
-    .Delicia1 {
-    width: 200px; 
-    height: 200px;
-    position: relative;
-    left: auto;
+.sr-only1 {
+    color: #8c6b5f;
+    background-color: #9bfab0;
+}
+
+.Delicia1 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-basis: 30%;
     }
 
-    .Delicia2 {
-    width: 200px; 
-    height: 200px;
-    position: relative;
-    left: auto;
-    }
-
-    .Delicia3 {
+.Delicia2 {
     width: 250px; 
     height: 250px;
-    position: relative;
-    left: auto;
-    }
+}
 
-    .Delicia4 {
-    width: 200px; 
-    height: 200px;
-    position: relative;
-    left: auto;
-    }
+.cookie {
+    text-align: right;
+}
+
+.cookies {
+    padding-left: 50px;
+}
+
+@media (max-width: 767px){
+
+}
+
+@media (max-width: 1024px){
+
+}

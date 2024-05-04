@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heavenly's Delight</title>
     <link rel="icon" type="image/x-icon" href="./../assets/Imagenes/Logo-corto copy.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="../Javascript/javascript.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -35,12 +37,12 @@
         </nav>
     </header>
     <main>
-        <h1->Algunos de Nuestros Boxes</h1->
+        <h1>Algunos de Nuestros Boxes</h1>
         <div>
             <img src="./../assets/Imagenes/Box-de-Desayuno.jpeg" style="float: left; margin-right: 10px;" class="Box">
         </div>
-        <h2>Box de Desayuno Individual</h2>
-        <section1>
+        <h3 class="Boxes">Box de Desayuno Individual</h3>
+        <section1 class="Boxes">
             <div>
                 <p>Este Box de desayuno individual cuenta con diversos alimentos nutritivos, deliciosos y para darse un gustito de vez en cuando. Este ejemplar cuenta con los siguientes productos (Las imagenes son a modo de ilustración):</p>
             </div>
@@ -59,7 +61,7 @@
                 <li>Una taza adornada con un corazón (el diseño puede variar, en base al pedido.)</li>
             </ul>
         </section1>
-        <form>
+        <form class="Boxes">
             <label for="Cantidad">Cantidad:</label>
             <select name="Cantidad" id="Cantidad" required>
                 <option value="" selected>Elija una opción</option>
@@ -67,12 +69,12 @@
                 <option value="">2</option>
                 <option value="">3 o más</option>
             </select>
-            <input type="submit" value="Comprar">
+            <input type="submit" value="Agregar al Carrito">
         </form>
         
     </main>
     <footer>
-        <p>Derechos de autor &copy; 2024 Coffee & Patisserie Heavenly's Delight. Todos los derechos reservados.</p>
+        <p class="footy">Derechos de autor &copy; 2024 Coffee & Patisserie Heavenly's Delight. Todos los derechos reservados.</p>
     </footer>
 
 </body>
