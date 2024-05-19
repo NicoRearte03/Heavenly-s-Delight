@@ -1,25 +1,25 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     color: #333;
-    }
+    } */
 
-h1 {
+/* h1 {
     color: #8c6b5f;
     text-decoration: underline;
 }
 
 h2, h3, h4 {
     color: #8c6b5f; /* marrón pastel */
-    }
+    
 
-p {
+/* p {
     text-align: justify;
     margin: auto;
     color: #8c6b5f
-}
+} */
 
-nav ul {
+/* nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -34,65 +34,67 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #8c6b5f; /* marrón pastel */
-    }
+    
 
 /* Estilos específicos */
-header {
+/* header {
     background-color: #d8e8d1; /* verde pastel */
-    padding: 20px;
-    }
+    /* padding: 20px;
+    } */
 
-section {
+/* section {
     background-color: #cfd9e8; /* azul pastel */
-    padding: 20px;
+    /* padding: 20px;
     margin-bottom: 20px;
-    }
+    }  */
 
+
+/* No me funciona este solo en el SCSS, podrías indicarme donde esta el error para que funcione en scss? */
 footer {
     background-color: #e8d1d1; /* marrón pastel */
     padding: 10px;
     text-align: center;
     }
 
-.footy {
+/* .footy {
     text-align: center;
     color: #333;
-}
+} */
 
-.Logo {
+/* .Logo {
     width: 150px; 
     height: 150px;
-    }
+    } */
 
-.Box {
+/* .Box {
     width: 370px; 
     height: 370px;
     position: relative;
     left: auto;
-    }
+    } */
 
-.Boxes {
+/* .Boxes {
     display: grid;
     bottom: 0;
     left: 0;
     width: 100%;
     padding: 10px;
-}
+} */
 
-label {
+/* label {
     color: #8c6b5f;
-    }
+    } */
 
-section1 {
+/* section1 {
     text-align: left;
-    }
+    } */
 
-.sr-only1 {
+/* .sr-only1 {
     color: #8c6b5f;
     background-color: #9bfab0;
-}
+} */
 
-.Delicia1 {
+/* .Delicia1 {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -103,20 +105,20 @@ section1 {
 .Delicia2 {
     width: 250px; 
     height: 250px;
-}
+} */
 
-.cookie {
+/* .cookie {
     text-align: right;
 }
 
 .cookies {
     padding-left: 50px;
-}
+} */
 
-@media (max-width: 767px){
+/* @media (max-width: 767px){
 
 }
 
 @media (max-width: 1024px){
 
-}
+} */

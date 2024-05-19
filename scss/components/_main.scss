@@ -1,0 +1,63 @@
+main{
+    section{
+        background-color: #cfd9e8; /* azul pastel */
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    h1 {
+        color: #8c6b5f;
+        text-decoration: underline;
+    }
+    h2{
+        color: #8c6b5f; /* marrón pastel */
+        }
+    h3{
+        color: #8c6b5f;
+    }
+    h4{
+        color: #8c6b5f;
+    }
+    p{
+        text-align: justify;
+        margin: auto;
+        color: #8c6b5f
+    }
+    .Delicia1 {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        flex-basis: 30%;
+        }
+    .Delicia2 {
+        width: 250px; 
+        height: 250px;
+        }
+    .cookies {
+        padding-left: 50px;
+        }
+    .cookie {
+        text-align: right;
+        }
+    .Boxes {
+        display: grid;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        }
+    .Box {
+        width: 370px; 
+        height: 370px;
+        position: relative;
+        left: auto;
+        }
+    label {
+        color: #8c6b5f;
+        }
+    .sr-only1 {
+        color: #8c6b5f;
+        background-color: #9bfab0;
+        }
+}

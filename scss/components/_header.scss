@@ -1,0 +1,34 @@
+header {
+    background-color: #d8e8d1; /* verde pastel */
+    padding: 20px;
+    nav{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        display: inline-block;
+        margin-right: 20px;
+        text-decoration: none;
+        color: #8c6b5f; /* marrón pastel */
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        display: inline-block;
+        margin-right: 20px;
+        text-decoration: none;
+        color: #8c6b5f; /* marrón pastel */
+    }
+    li{
+        display: inline-block;
+        margin-right: 20px;
+        text-decoration: none;
+        color: #8c6b5f; /* marrón pastel */
+    }
+    a{
+        text-decoration: none;
+        color: #8c6b5f; /* marrón pastel */
+    }
+}
