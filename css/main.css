@@ -107,7 +107,7 @@ main .sr-only1 {
 }
 
 footer {
-  background-color: #e8d1d1; /* marrón pastel */
+  background-color: #e8d1d1; /* Rosa pastel */
   padding: 10px;
   text-align: center;
 }
@@ -116,4 +116,4 @@ footer .footy {
   color: #333;
 }
 
-/* No me funciona este solo en el SCSS, podrías indicarme donde esta el error para que funcione en scss y no en css? *//*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
