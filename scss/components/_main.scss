@@ -1,4 +1,4 @@
-main{
+main {
     section{
         background-color: #cfd9e8; /* azul pastel */
         padding: 20px;
@@ -60,4 +60,10 @@ main{
         color: #8c6b5f;
         background-color: #9bfab0;
         }
+    .Informacion {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 100px);
+        gap: 1rem;
+    }
 }

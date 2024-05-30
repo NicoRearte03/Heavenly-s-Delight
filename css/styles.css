@@ -122,3 +122,10 @@ footer {
 @media (max-width: 1024px){
 
 } */
+
+/* .Informacion {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 100px);
+    gap: 1rem;
+} */
