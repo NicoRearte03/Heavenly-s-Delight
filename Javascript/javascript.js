@@ -8,10 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-    document.querySelector('.toggle-btn').addEventListener('click', function() {
-        var checkbox = document.getElementById('toggle-checkbox');
-        checkbox.checked = !checkbox.checked;
-    });
 
 
 
