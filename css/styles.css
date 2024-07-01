@@ -1,4 +1,4 @@
-header {
+/* header {
     background-color: #9bfab0;
     padding: 20px;
     color: #8c6b5f;
@@ -145,4 +145,4 @@ input[type="checkbox"]:checked + .toggle-btn span:nth-child(3) {
     input[type="checkbox"]:checked ~ .menu {
         display: flex;
     }
-}
+} */
